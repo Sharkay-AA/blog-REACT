@@ -1,10 +1,11 @@
 import React from 'react';
+import Form from '../../Components/Form/Form';
 
 function AddArticle(props) {
     return (
-        <div>
-
-        </div>
+        <>
+            <Form />
+        </>
     );
 }
 
