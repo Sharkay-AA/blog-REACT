@@ -2,11 +2,9 @@ import React from 'react';
 import { useLocation } from "react-router-dom";
 import "./Article.css"
 
-function Article(props) {
+function Article() {
 
     const location = useLocation()
-
-
 
     return (
         <div className='article-content'>

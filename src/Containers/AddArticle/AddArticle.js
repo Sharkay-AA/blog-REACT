@@ -1,7 +1,7 @@
 import React from 'react';
 import Form from '../../Components/Form/Form';
 
-function AddArticle(props) {
+function AddArticle() {
     return (
         <>
             <Form />

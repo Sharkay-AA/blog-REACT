@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Contact.css";
 
-function Contact(props) {
+function Contact() {
     return (
         <div className='container-contact'>
             <h1>Contactez-nous</h1>

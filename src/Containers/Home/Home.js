@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import "./Home.css";
 import Card from "../../Components/Card/Card";
 import { useSelector, useDispatch } from "react-redux";
@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from "uuid";
 import { Link } from "react-router-dom";
 
 
-function Home(props) {
+function Home() {
 
     const { articles } = useSelector(state => ({
         ...state.articleReducer
@@ -39,7 +39,6 @@ function Home(props) {
                             >
                                 Lire l'article
                             </Link>
-
                         </Card>
                     )
                 })}

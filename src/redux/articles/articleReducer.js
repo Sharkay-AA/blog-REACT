@@ -25,7 +25,7 @@ export default articleReducer;
 
 export const getArticles = () => dispatch => {
 
-    fetch("https://jsonplaceholder.typicode.com/posts")
+    fetch("https://jsonplaceholder.typicode.com/posts/?_start=0&_limit=10")
         .then(response => response.json())
         .then(data => {
             dispatch({

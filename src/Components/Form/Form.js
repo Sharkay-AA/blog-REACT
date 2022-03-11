@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import "./Form.css";
 
-function Form(props) {
+function Form() {
 
     const [article, setArticle] = useState({
         title: "",
